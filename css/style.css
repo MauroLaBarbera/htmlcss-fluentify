@@ -25,6 +25,18 @@ body {
     float: left;
 }
 
+.btn {
+    display: inline-block;
+    line-height: 1;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 10px;
+    min-width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
 /* HEADER */
 .main-header {
     line-height: 80px;
@@ -44,10 +56,23 @@ body {
 }
 
 /* NAVBAR */
+.navbar ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:#fff
+}
+
+/* NAV-CENTER */
 .nav-center {
     width: 45%;
 }
 
+
+/* NAV - */
 .nav-right {
     width: 40%;
     text-align: right;
