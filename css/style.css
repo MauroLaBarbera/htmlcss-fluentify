@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5 {
     margin-top: 50px;
 }
 
-.sec-table, .sec-table2 {
+.sec-table {
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
@@ -183,15 +183,35 @@ h1, h2, h3, h4, h5 {
     margin: 3%;
 }
 
-.colon-dx h2 {
+.sec-table2 .table .colon-dx h2 {
     color: #000;
     font-size: 35px;
 }
 
-.colon-dx h3 {
+.sec-table2 .table .colon-dx h3 {
     margin: 20px 0;
 }
 
-.colon-dx a {
+.sec-table2 .table .colon-dx a {
     color: dodgerblue;
+}
+
+/* FOOTER */
+.footer {
+    background: #d3d3d3;
+}
+
+.footer h2 {
+    color: #000;
+    padding: 20px;
+}
+
+.footer .table .colon {
+    width: 44%;
+    margin: 3%;
+}
+
+.seleziona {
+    color: #838383;
+    margin: 0px 30px;
 }
