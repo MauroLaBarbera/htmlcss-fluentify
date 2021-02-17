@@ -25,8 +25,14 @@ body {
     float: left;
 }
 
+.w-50 {
+    width: 50%;
+}
+
+/* BUTTON */
 .btn {
     display: inline-block;
+    text-transform: uppercase;
     line-height: 1;
     border-radius: 5px;
     border: 1px solid #fff;
@@ -35,6 +41,15 @@ body {
     text-align: center;
     text-decoration: none;
     color: #fff;
+}
+
+.btn.btn-green {
+    background-color: #7cbb01;
+    border: 0;
+}
+
+.btnbig {
+    padding: 20px
 }
 
 /* HEADER */
@@ -76,4 +91,34 @@ body {
 .nav-right {
     width: 40%;
     text-align: right;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-color: #0d325a;
+    height: 480px;
+    background-image: url('../img/background-header.png');
+    background-size:  1000px;
+    background-repeat: no-repeat;
+    background-position: 125% bottom;
+}
+
+/* JUMBOTEXT */
+
+.jumbotron .container {
+    position: relative;
+    height: 100%;
+}
+
+.jumbotext {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.jumbotext h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
