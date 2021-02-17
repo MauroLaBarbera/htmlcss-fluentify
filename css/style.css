@@ -33,11 +33,11 @@ h1, h2, h3, h4, h5 {
     width: 50%;
 }
 
+
 /* BUTTON */
 .btn {
     display: inline-block;
     text-transform: uppercase;
-    line-height: 1;
     border-radius: 5px;
     border: 1px solid #fff;
     padding: 10px;
@@ -54,6 +54,15 @@ h1, h2, h3, h4, h5 {
 
 .btnbig {
     padding: 20px
+}
+
+/* HELP */
+.help {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 80%;
+    min-width: 0;
 }
 
 /* HEADER */
@@ -80,9 +89,17 @@ h1, h2, h3, h4, h5 {
     margin-left: 15px;
 }
 
+.navbar a.btn {
+    line-height: 1;
+}
+
 .navbar a {
     text-decoration: none;
     color:#fff
+}
+
+.navbar a:not(.btn):hover {
+    color: #7cbb01;
 }
 
 /* NAV-CENTER */
