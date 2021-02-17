@@ -187,11 +187,21 @@ h1, h2, h3, h4, h5 {
 
 .sec-table .table .colon p {
     text-align: center;
-    margin-top: 50px;
 }
 
 .sec-table {
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+hr { 
+    width: 25%;
+    display: block;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
 
 /* SECTION TABLE2 */
