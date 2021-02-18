@@ -223,7 +223,7 @@ hr {
     color: dodgerblue;
 }
 
-/* FOOTER */
+/* STRUTTURA */
 .struttura {
     background: #d3d3d3;
 }
@@ -308,3 +308,27 @@ hr {
     color: dodgerblue;
     font-size: 16px;
 }
+
+/* SECTION 5 */
+.blue {
+    height: 500px;
+    background-color: #0d325a;
+}
+
+.banner-text {
+    width:25%;
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translateY(50%) ;
+}
+
+.banner-text h2 {
+    color: #fff;
+}
+
+.banner-text h3 {
+    padding: 30px 0;
+}
+
+/* SECTION 6 */
