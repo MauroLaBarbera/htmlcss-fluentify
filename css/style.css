@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h2 {
+    font-weight: bold ;
     color: #000;
 }
 /* UTILITIES */
@@ -332,3 +333,55 @@ hr {
 }
 
 /* SECTION 6 */
+ .plan .table .colon img {
+    width: 80px;
+}
+
+.plan .table .colon h2 {
+    text-align: left;
+    color: #000;
+    padding: 20px 0;
+}
+
+.plan .table .colon p {
+    text-align: left;
+}
+
+.plan-text h2 {
+    line-height: 150px;
+    text-align: center;
+}
+
+/* BORDER */
+.colon .border {
+    border: 4px solid;
+    margin: 20px 0;
+}
+
+.border-blue {
+    color: dodgerblue;
+    background: dodgerblue;
+}
+
+.border-orange {
+    color: orange;
+    background: orange;
+}
+
+.border-green {
+    color: green;
+    background: green;
+}
+
+.str-blue {
+    color: dodgerblue;
+}
+
+.str-orange {
+    color: orange;
+}
+
+.str-green {
+    color: green;
+}
+
