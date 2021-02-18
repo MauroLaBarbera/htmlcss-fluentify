@@ -13,6 +13,9 @@ h1, h2, h3, h4, h5 {
     font-weight: 500;
 }
 
+h2 {
+    color: #000;
+}
 /* UTILITIES */
 .container {
     width: 1200px;
@@ -89,13 +92,10 @@ h1, h2, h3, h4, h5 {
     margin-left: 15px;
 }
 
-.navbar a.btn {
-    line-height: 1;
-}
-
 .navbar a {
     text-decoration: none;
-    color:#fff
+    color:#fff;
+    line-height: 1;
 }
 
 .navbar a:not(.btn):hover {
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5 {
 }
 
 
-/* NAV - */
+/* NAV - RIGHT */
 .nav-right {
     width: 40%;
     text-align: right;
@@ -224,16 +224,16 @@ hr {
 }
 
 /* FOOTER */
-.footer {
+.struttura {
     background: #d3d3d3;
 }
 
-.footer h2 {
+.struttura h2 {
     color: #000;
     padding: 20px;
 }
 
-.footer .table .colon {
+.struttura .table .colon {
     width: 44%;
     margin: 3%;
 }
@@ -241,4 +241,70 @@ hr {
 .seleziona {
     color: #838383;
     margin: 0px 30px;
+}
+
+
+/* HELP */
+.help {
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #7cbb01;
+    padding: 10px;
+    text-align: center;
+    
+    background-color: #7cbb01;
+    
+}
+
+.help a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* SECTION TIRD */
+.btntext ul li {
+    display: inline-block;
+    width: 45%;
+}
+.sec-table2.hand {
+    padding: 50px;
+}
+
+.sec-table2 .colon .btntext .btn {
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+}
+
+.btntext h3 {
+    text-align: center;
+}
+
+/* SECTION FORTH */
+
+.pc .container {
+    text-align: center;
+    width: 695px;
+}
+
+.pc .container img {
+    width: 700px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.pc .container h4 {
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+/* TESTO GREEN */
+.pc .container span {
+    color: #7cbb01;
+}
+
+.pc .container a {
+    color: dodgerblue;
+    font-size: 16px;
 }
