@@ -23,6 +23,11 @@ h2 {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .clearfix {
     content:'';
     display: table;
@@ -31,6 +36,11 @@ h2 {
 
 .float-left {
     float: left;
+}
+
+.float-right {
+    float: right;
+    text-align: right;
 }
 
 .w-50 {
@@ -65,8 +75,21 @@ h2 {
     position: fixed;
     z-index: 10;
     bottom: 0;
-    left: 80%;
+    left: 90%;
     min-width: 0;
+}
+
+
+.help {
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #7cbb01;
+    padding: 10px;
+    text-align: center;
+    
+    background-color: #7cbb01;
+    
 }
 
 /* HEADER */
@@ -244,25 +267,6 @@ hr {
     margin: 0px 30px;
 }
 
-
-/* HELP */
-.help {
-    display: inline-block;
-    text-transform: uppercase;
-    border-radius: 5px 5px 0 0;
-    border: 1px solid #7cbb01;
-    padding: 10px;
-    text-align: center;
-    
-    background-color: #7cbb01;
-    
-}
-
-.help a {
-    text-decoration: none;
-    color: #fff;
-}
-
 /* SECTION TIRD */
 .btntext ul li {
     display: inline-block;
@@ -384,4 +388,41 @@ hr {
 .str-green {
     color: green;
 }
+/* 2 BANNER */
+.blue-due .banner-blue .banner-text {
+    width: 100%;
+}
 
+.blue-due {
+    height: 200px;
+    background: #0d325a;
+    margin-top: 80px;
+}
+
+/* FOOTER */
+.footer {
+    background: #17416b;
+}
+ 
+.footer .foot h2, 
+.footer .foot h3 {
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.footer .foot p {
+    padding-top: 60px;
+}
+
+.footer .foot a {
+    color: #838383;
+}
+
+.footer .foot li {
+    padding-bottom: 15px;
+    list-style:none;
+}
+
+.sec-table {
+    border: 0;
+}
